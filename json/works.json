@@ -1,0 +1,30 @@
+[
+  {
+    "title":  "Сайт школы онлайн образования",
+    "skills": [ "html", "css", "js", "php" ],
+    "url":    "http://www.loftschool.com",
+    "image":  "project_1.jpg"
+  },
+
+  {
+    "title":  "Gulp",
+    "skills": [ "html", "css", "js", "gulp", "Node.js" ],
+    "url":    "http://www.nodejs.com",
+    "image":  "project_2.jpg"
+  },
+
+  {
+    "title":  "pug (jade)",
+    "skills": [ "html", "jade", "css", "js" ],
+    "url":    "http://www.jade-lang.com",
+    "image":  "project_3.jpg"
+
+  },
+
+  {
+    "title":  "SASS (SCSS)",
+    "skills": [ "html", "css", "js", "php" ],
+    "url":    "http://www.sass-lang.com",
+    "image":  "project_4.jpg"
+  }
+]
