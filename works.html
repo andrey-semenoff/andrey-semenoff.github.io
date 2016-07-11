@@ -10,8 +10,6 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <link rel="shortcut icon" type="image/png" href="img/favicon/favicon16x16.png">
-      <link rel="shortcut icon" type="image/png" href="img/favicon/favicon32x32.png">
-      <link rel="shortcut icon" type="image/png" href="img/favicon/favicon96x96.png">
       <link rel="stylesheet" href="css/vendor.css">
       <link rel="stylesheet" href="css/main.css">
       <script src="js/vendor.js" defer></script>
@@ -99,14 +97,9 @@
             </svg>
           </div>
         </div>
-        <div class="slider parallaxed parallaxed_moved" id="main_anchor">
+        <div class="slider" id="main_anchor">
           <div class="slider-preview">
-            <ul class="slider-preview__list">
-              <li class="slider-preview__item"><img class="slider-preview__photo" src="img/projects/project_1.jpg" alt=""></li>
-              <li class="slider-preview__item"><img class="slider-preview__photo" src="img/projects/project_2.jpg" alt=""></li>
-              <li class="slider-preview__item"><img class="slider-preview__photo" src="img/projects/project_3.jpg" alt=""></li>
-              <li class="slider-preview__item"><img class="slider-preview__photo" src="img/projects/project_4.jpg" alt=""></li>
-            </ul>
+            <ul class="slider-preview__list"></ul>
           </div>
           <div class="slider-description">
             <div class="desc-box">
@@ -114,13 +107,13 @@
                 <div class="content__title">
                   <svg class="bubbles bubbles_left">
                     <use xlink:href="#bubbles2x"></use>
-                  </svg><span class="title-content">Сайт школы онлайн образования</span>
+                  </svg><span class="title-content transformed">Сайт школы онлайн образования</span>
                   <svg class="bubbles bubbles_right">
                     <use xlink:href="#bubbles2x"></use>
                   </svg>
                 </div>
               </div>
-              <div class="current-skills">HTML, CSS, JAVASCRIPT</div><a class="slider-description__btn" href="#">
+              <div class="current-skills transformed">HTML, CSS, JAVASCRIPT</div><a class="slider-description__btn" href="#">
                 <svg class="btn__icon icon-link-dims">
                   <use xlink:href="#link"></use>
                 </svg>
@@ -128,23 +121,13 @@
             </div>
           </div>
           <div class="slider-nav"><a class="slider__button slider__button_down" href="#">
-              <ul class="slider-button__list">
-                <li class="slider-button__item"><img class="slider-button__img" src="img/projects/project_1.jpg" alt=""></li>
-                <li class="slider-button__item"><img class="slider-button__img" src="img/projects/project_2.jpg" alt=""></li>
-                <li class="slider-button__item"><img class="slider-button__img" src="img/projects/project_3.jpg" alt=""></li>
-                <li class="slider-button__item"><img class="slider-button__img" src="img/projects/project_4.jpg" alt=""></li>
-              </ul>
+              <ul class="slider-button__list"></ul>
               <div class="slider-button__overlay">
                 <svg class="btn__icon icon-portf_arrow_down-dims">
                   <use xlink:href="#portf_arrow_down"></use>
                 </svg>
               </div></a><a class="slider__button slider__button_up" href="#">
-              <ul class="slider-button__list">
-                <li class="slider-button__item"><img class="slider-button__img" src="img/projects/project_1.jpg" alt=""></li>
-                <li class="slider-button__item"><img class="slider-button__img" src="img/projects/project_2.jpg" alt=""></li>
-                <li class="slider-button__item"><img class="slider-button__img" src="img/projects/project_3.jpg" alt=""></li>
-                <li class="slider-button__item"><img class="slider-button__img" src="img/projects/project_4.jpg" alt=""></li>
-              </ul>
+              <ul class="slider-button__list"></ul>
               <div class="slider-button__overlay">
                 <svg class="btn__icon icon-portf_arrow_up-dims">
                   <use xlink:href="#portf_arrow_up"></use>
@@ -167,7 +150,7 @@
             </div>
           </div>
           <div class="quotes">
-            <div class="quote parallaxed parallaxed_moved">
+            <div class="quote parallaxed parallaxed_hide">
               <p class="quote__text">Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 2 месяца только самых тяжелых испытаний и бессонных ночей!</p>
               <div class="quote__author">
                 <div class="quote-author__photo"><img src="img/dima-photo.jpg" alt></div>
@@ -177,7 +160,7 @@
                 </div>
               </div>
             </div>
-            <div class="quote parallaxed parallaxed_moved">
+            <div class="quote parallaxed parallaxed_hide">
               <p class="quote__text">Этот код выдержет любые испытания. Только пожалуйста, не загружается сайт на слишком старых браузерах!</p>
               <div class="quote__author">
                 <div class="quote-author__photo"><img src="img/zar-photo.jpg" alt></div>
@@ -189,10 +172,10 @@
             </div>
           </div>
           <div class="contact-me">
-            <div class="contact-me__bg"><img src="../img/contact-me_bg.png" alt="bg"></div>
+            <div class="contact-me__bg"><img src="img/contact-me_bg.png" alt="bg"></div>
             <div class="contact-form-box">
               <div class="contact-form__bg"></div>
-              <form class="contact-form parallaxed parallaxed_moved">
+              <form class="contact-form parallaxed parallaxed_hide">
                 <div class="title_h2">
                   <div class="content__title_bg">
                     <svg class="bubbles bubbles_left">
@@ -209,6 +192,10 @@
                 <div class="contact-form__buttons">
                   <input class="contact-form__btn" type="submit" value="Отправить">
                   <input class="contact-form__btn" type="reset" value="Очистить">
+                </div>
+                <div class="contact-form__sendMsg-box">
+                  <div class="contact-form__sendMsg-text contact-form__sendMsg-text_hidden">ТЕСТ<br>ТЕСТ</div>
+                  <button class="contact-form__close-sendMsg-box-btn">x</button>
                 </div>
               </form>
             </div>
